@@ -11,12 +11,26 @@ body {
 .hero {
   padding-top: 50px;
   padding-bottom: 155px;
-  background: linear-gradient(0deg, #000000 0.01%, rgba(0,0,0,0) 95.44%);
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
 
 .container {
   max-width: 945px;
   margin: auto;
+}
+
+.section {
+  background-color: black;
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+
+.section-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 84px;
 }
 
 .hero-header {
@@ -34,35 +48,39 @@ body {
   margin-left: 20px;
 }
 
+.social-link:first-child{
+  margin-left: 0;
+}
+
 .social-link img {
   width: 20px;
   height: 20px;
 }
 
-.hero-content{
-  display:flex;
+.hero-content {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .hero-subtitle {
-  display: inline-block;
+  display: block;
   font-size: 24px;
   line-height: 28px;
   color: #FFBB01;
-  margin-bottom:14px;
+  margin-bottom: 14px;
 }
 
-.hero-title{
+.hero-title {
   font-weight: bold;
   font-size: 50px;
-  line-height:59px;
+  line-height: 59px;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
 .hero-description {
-  font-size:16px;
+  font-size: 16px;
   line-height: 28px;
   max-width: 420px;
 }
@@ -77,4 +95,93 @@ body {
   background-repeat: no-repeat;
   background-position: right center;
   border: 13px solid #fff;
+}
+
+/* features */
+
+.features {
+  background-color: black;
+
+}
+
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-item {
+  flex-basis: 30%;
+  margin-bottom: 63px;
+}
+
+.features-image {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.features-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.features-text{
+  font-weight: normal;
+  font-size:16px;
+  line-height:28px;
+  margin:0;
+}
+
+.contacts-block {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-data{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 42px;;
+}
+
+.cotacts-text{
+  width:50%;
+}
+
+.contacts-phone, .contacts-mail{
+  flex-basis:50%;
+  margin-bottom: 53px;
+}
+
+.contacts-social{
+  flex-basis: 100%;
+}
+
+.contacts-title{
+  font-weight:bold;
+  font-size:24px;
+  line-height:28px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contacts-link{
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;;
+}
+
+.contacts-link:hover{
+  text-decoration: underline;
+}
+
+.contacts-policy{
+  display: inline-block;
+  font-size:15px;
+  line-height: 18px;
+  color:#A5A5A5;
+  margin-top: 42px;
 }

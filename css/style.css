@@ -20,7 +20,6 @@ body {
 }
 
 .section {
-  background-color: black;
   padding-top: 64px;
   padding-bottom: 92px;
 }
@@ -133,6 +132,87 @@ body {
   font-size:16px;
   line-height:28px;
   margin:0;
+}
+
+/* projects */
+.projects {
+  background: linear-gradient(180deg, #000000 0.01%, rgba(0,0,0,0) 95.44%);
+}
+
+.projects-slide{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project-text{
+  display: flex;
+  flex-basis: 60%;
+  flex-wrap: wrap;
+}
+
+.project-title{
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size:24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time, .project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time, .project-cost, .project-feedback{
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size:18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.project-paragraph{
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.project-icon{
+  margin-right: 16px;
+}
+
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.projects-bullet {
+  height: 10px;
+  width:10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.projects-bullet-active{
+  background-color: #FFBB01;
+}
+
+.slider-preview{
+  width: 328px;
+  height: 268px;
 }
 
 .contacts-block {

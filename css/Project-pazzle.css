@@ -1,0 +1,53 @@
+.project-pazzle {
+  display: flex;
+  max-width: 945px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.single-project {
+  width: 300px;
+  height: 270px;
+  margin-bottom: 20px;
+  border-radius: 17px;
+  border: 1px solid white;
+}
+
+.single-project:hover .project-image{
+  cursor: pointer;
+  opacity: 50%;
+  transition: .5s;
+}
+
+.project-image {
+  width: 299px;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-info {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title-year {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-category {
+  font-size: 12px;
+}
+
+.project-title_last-project {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project-year {
+  font-weight: bold;
+}

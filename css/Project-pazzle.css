@@ -6,11 +6,8 @@
 }
 
 .single-project {
-  width: 300px;
+  width: 315px;
   height: 270px;
-  margin-bottom: 20px;
-  border-radius: 17px;
-  border: 1px solid white;
 }
 
 .single-project:hover .project-image{
@@ -20,9 +17,8 @@
 }
 
 .project-image {
-  width: 299px;
+  width: 315px;
   height: 200px;
-  border-radius: 15px 15px 0 0;
 }
 
 .project-info {

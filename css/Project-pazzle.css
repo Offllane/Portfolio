@@ -23,6 +23,7 @@
 .project-image {
   width: 315px;
   height: 200px;
+<<<<<<< HEAD
 }
 
 .project-buttons-container {
@@ -50,6 +51,8 @@
   background-color: #FFBB01;
   cursor: pointer;
   transition: .5s;
+=======
+>>>>>>> 92d8706964ac50da8dafbfb2e40da4bd5602349c
 }
 
 .project-info {

@@ -6,23 +6,50 @@
 }
 
 .single-project {
-  width: 300px;
+  width: 315px;
   height: 270px;
-  margin-bottom: 20px;
-  border-radius: 17px;
-  border: 1px solid white;
 }
 
-.single-project:hover .project-image{
-  cursor: pointer;
-  opacity: 50%;
+.single-project:hover .project-image {
+  opacity: 0.1;
   transition: .5s;
 }
 
+.single-project:hover .project-buttons-container {
+  opacity: 100;
+  transition:.5s;
+}
+
 .project-image {
-  width: 299px;
+  width: 315px;
   height: 200px;
-  border-radius: 15px 15px 0 0;
+}
+
+.project-buttons-container {
+  display: flex;
+  width: 300px;
+  position: fixed;
+  margin-top: 80px;
+  justify-content: space-around;
+  padding: 10px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.project-button {
+  position: relative;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 2px solid#FFBB01;
+  border-radius: 25px;
+}
+
+.project-button:hover {
+  color: black;
+  background-color: #FFBB01;
+  cursor: pointer;
+  transition: .5s;
 }
 
 .project-info {

@@ -30,7 +30,7 @@
   display: flex;
   width: 315px;
   position: fixed;
-  margin-top: 80px;
+  margin-top: 75px;
   justify-content: space-around;
   padding: 10px;
   opacity: 0;
@@ -38,6 +38,9 @@
 }
 
 .project-button {
+  display:flex;
+  text-decoration: none;
+  justify-content: center;
   width: 40%;
   color: white;
   background-color: black;
@@ -45,12 +48,13 @@
   border: 2px solid#FFBB01;
   border-radius: 25px;
   transition: .7s;
+  outline: none;
 }
 
 .project-button:hover {
   color: black;
   background-color: #FFBB01;
-  width: 70%;
+  width: 90%;
   cursor: pointer;
   transition: .7s;
 }

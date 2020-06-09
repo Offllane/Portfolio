@@ -44,6 +44,7 @@
   padding: 10px;
   border: 2px solid#FFBB01;
   border-radius: 25px;
+  transition: .7s;
 }
 
 .project-button:hover {

@@ -68,7 +68,13 @@
   height: 100px;
 }
 
-.hero-content {
+.hero-content_introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content_aboutMe {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,6 +99,8 @@
   line-height: 59px;
   margin-top: 0;
   margin-bottom: 20px;
+  word-wrap:normal;
+  min-width: 250px;
 }
 
 .hero-description {

@@ -39,6 +39,7 @@
 
 .project-button {
   display:flex;
+  min-width: 100px;
   text-decoration: none;
   justify-content: center;
   width: 40%;
@@ -52,11 +53,16 @@
 }
 
 .project-button:hover {
+  text-decoration: none;
   color: black;
   background-color: #FFBB01;
   width: 90%;
   cursor: pointer;
   transition: .7s;
+}
+
+.none-underline {
+  text-decoration: none;
 }
 
 .project-info {

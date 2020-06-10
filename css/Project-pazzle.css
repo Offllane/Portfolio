@@ -48,7 +48,7 @@
   padding: 10px;
   border: 2px solid#FFBB01;
   border-radius: 25px;
-  transition: .7s;
+  transition: .4s;
   outline: none;
 }
 
@@ -58,7 +58,7 @@
   background-color: #FFBB01;
   width: 90%;
   cursor: pointer;
-  transition: .7s;
+  transition: .4s;
 }
 
 .none-underline {
